@@ -5,8 +5,7 @@ export function Header() {
     <Flex 
       as="header"
       w="100%"
-      maxW={1440}
-      h={["50px", "100"]}
+      h={["3.125rem", "6.25rem"]}
       mx="auto"
       px="1rem"
       align="center"
@@ -17,15 +16,15 @@ export function Header() {
         h="100%"
         mx="auto"
         w="100%"
-        maxW="1160px"
         alignContent="center"
         templateColumns="repeat(3, 1fr)"
         justifyContent="center"
       >
         <Image
-          w={["81px","184px"]}
+          w={["5.063rem","11.669rem"]}
+          h={["1.25rem", "2.87rem"]}
           src="/images/Logo.svg"
-          alt="World Trip"
+          alt="Logo World Trip com avião voando"
           justifySelf="center"
           gridColumn="2"
         />
