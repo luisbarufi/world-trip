@@ -5,12 +5,12 @@ export function Header() {
     <Flex 
       as="header"
       w="100%"
-      h={["3.125rem", "6.25rem"]}
+      h={["50px", "100px"]}
       mx="auto"
       px="1rem"
       align="center"
       justify="center"
-      bg="white"
+      bg="gray.100"
     >
       <Grid
         h="100%"
@@ -21,9 +21,9 @@ export function Header() {
         justifyContent="center"
       >
         <Image
-          w={["5.063rem","11.669rem"]}
-          h={["1.25rem", "2.87rem"]}
-          src="/images/Logo.svg"
+          w={["81px","184.06px"]}
+          h={["20px", "45.92px"]}
+          src="/images/logo.svg"
           alt="Logo World Trip com avião voando"
           justifySelf="center"
           gridColumn="2"

@@ -1,11 +1,11 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
-export default function Banner() {
+export function Banner() {
   return (
     <Flex
       w="100%"
       h={["163px", "250px", "250px", "335px"]}
-      bgImage="url('images/Banner.png')"
+      bgImage="url('images/banner.png')"
       bgRepeat="no-repeat"
       bgSize="cover"
     >
@@ -18,10 +18,10 @@ export default function Banner() {
       >
         <Box>
           <Heading
-            color="gray.700"
-            fontWeight="700"
-            fontSize={["1.25rem","2.25rem"]}
-            w={["14.875rem", "26.625rem"]}
+            color={["white", "gray.700"]}
+            fontWeight="500"
+            fontSize={["20px","36px"]}
+            w={["238px", "426px"]}
           >
             5 Continentes,<br /> infinitas possibilidades.
           </Heading>
@@ -31,7 +31,7 @@ export default function Banner() {
             mt="5"
             fontWeight="400"
             fontSize={["0.875rem", "1.25rem"]}
-            w={["17.5rem", "20.813rem", "20.813rem", "32.75rem"]}
+            w={["333px", "333px", "524px"]}
           >
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.
           </Text>
@@ -40,9 +40,9 @@ export default function Banner() {
         <Image 
           src="/images/Airplane.svg"
           alt="Avião amarelo voando entre nuvens"
-          display={["none", "none", "none", "none","block"]}
-          w={["300px", "300px", "300px", "430px"]}
-          transform="translateY(48px)"
+          display={["none","none", "none","block"]}
+          w={["300px","300px","290px", "350px", "430px"]}
+          mt={["80px","80px","80px","155px", "110px"]}
           ml="8"
         />
       </Flex>
