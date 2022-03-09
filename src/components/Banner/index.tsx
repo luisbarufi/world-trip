@@ -13,6 +13,7 @@ export function Banner() {
         justify={["center", "space-between"]}
         align="center"
         w="100%"
+        maxW="1440px"
         mx="auto"
         px={["4", "10", "15", "20", "36"]}
       >
