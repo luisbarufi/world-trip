@@ -21,7 +21,7 @@ export function SlideItem({ image, title, paragraph}: SlideItemProps) {
       bgPosition="center"
       textAlign="center"
     >
-      <Link href="/contient/europe">
+      <Link href="/continent/europe">
         <a>
           <Heading
             fontSize={["3xl", "4xl", "5xl"]}
