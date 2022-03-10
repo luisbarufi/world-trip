@@ -30,6 +30,16 @@ export function ContinentSlider() {
             image="europe"
             title="Europa"
             paragraph="O continente mais antigo" 
+            link="europe"
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <SlideItem
+            image="northAmerica"
+            title="America do Norte"
+            paragraph="O continente mais novo"
+            link="northAmerica"
           />
         </SwiperSlide>
 
@@ -37,15 +47,8 @@ export function ContinentSlider() {
           <SlideItem
             image="europe"
             title="Europa"
-            paragraph="O continente mais antigo" 
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <SlideItem
-            image="europe"
-            title="Europa"
-            paragraph="O continente mais antigo" 
+            paragraph="O continente mais antigo"
+            link="europe"
           />
         </SwiperSlide>
 

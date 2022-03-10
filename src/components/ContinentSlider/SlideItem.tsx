@@ -5,9 +5,10 @@ interface SlideItemProps {
   image: string;
   title: string;
   paragraph: string;
+  link: string;
 }
 
-export function SlideItem({ image, title, paragraph}: SlideItemProps) {
+export function SlideItem({ image, title, paragraph, link}: SlideItemProps) {
   return (
     <Flex
       w="100%"
@@ -21,12 +22,12 @@ export function SlideItem({ image, title, paragraph}: SlideItemProps) {
       bgPosition="center"
       textAlign="center"
     >
-      <Link href="/continent/europe">
+      <Link href={`/continents/${link}`}>
         <a>
           <Heading
             fontSize={["3xl", "4xl", "5xl"]}
             fontWeight="bold"
-            color={["gray.100", "gray.700"]}
+            color="gray.100"
           >
             {title}
           </Heading>
