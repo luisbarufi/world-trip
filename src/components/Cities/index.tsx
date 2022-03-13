@@ -1,5 +1,5 @@
 import { Grid, Heading } from "@chakra-ui/react";
-import { City } from "./CIty";
+import { City } from "./City";
 
 export function Cities() {
   return (
