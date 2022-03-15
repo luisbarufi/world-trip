@@ -10,7 +10,7 @@ export default function Europe() {
       <ContinentBanner title="Europa" imageName="bannerEurope" />
 
       <Flex  direction="column" maxW="1160px" mx="auto" mb="100" px="1rem">
-        <Content 
+        <Content
           text="
             Europa é, por convenção, um dos seis continentes do mundo.
             Compreendendo a península ocidental da Eurásia, a Europa geralmente
@@ -43,6 +43,7 @@ export default function Europe() {
             title="Londres"
             paragraph="Reino Unido"
             flag="flag_uk"
+            continent="europe"
           />
 
           <City
@@ -50,6 +51,7 @@ export default function Europe() {
             title="Paris"
             paragraph="França"
             flag="flag_france"
+            continent="europe"
           />
 
           <City
@@ -57,6 +59,7 @@ export default function Europe() {
             title="Roma"
             paragraph="Itália"
             flag="flag_italy"
+            continent="europe"
           />
 
           <City
@@ -64,6 +67,7 @@ export default function Europe() {
             title="Praga"
             paragraph="República Tcheca"
             flag="flag_czech_republic"
+            continent="europe"
           />
 
           <City
@@ -71,6 +75,7 @@ export default function Europe() {
             title="Amsterdã"
             paragraph="República Tcheca"
             flag="flag_netherlands"
+            continent="europe"
           />
         </Grid>
       </Flex>
