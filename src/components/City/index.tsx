@@ -5,12 +5,13 @@ interface CityProps {
   title: string;
   paragraph: string;
   flag: string;
+  continent: string;
 }
 
-export function City({imgHeader, title, paragraph, flag}: CityProps) {
+export function City({imgHeader, title, paragraph, flag, continent}: CityProps) {
   return (
     <Box borderRadius="4px" overflow="hidden">
-      <Image src={`/images/europe/${imgHeader}.png`} h="170px" w="100%"/>
+      <Image src={`/images/${continent}/${imgHeader}.png`} h="170px" w="100%"/>
       <Flex
         p="6"
         align="center"
@@ -31,7 +32,12 @@ export function City({imgHeader, title, paragraph, flag}: CityProps) {
             {paragraph}
           </Text>
         </Flex>
-        <Image src={`/images/europe/${flag}.png`} w="30px" h="30px" borderRadius="50%"/>
+        <Image 
+          src={`/images/${continent}/${flag}.png`}
+          w="30px"
+          h="30px"
+          borderRadius="50%"
+        />
       </Flex>
     </Box>
   );
